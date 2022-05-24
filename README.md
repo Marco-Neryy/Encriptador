@@ -18,7 +18,7 @@ de mensagens, onde o texto que o usario digitar seja trocado por outras palavras
  
 <p>Outros pontos pedidos no desafio era os de nao permitir que o usuario possa alterar o campo de resposta, que possuisse um botão de copiar, aceitasse somente letras minusculas e nao permitir caracteres especiais. A responsividade nao era um dos pedidos mas optei de tentar colocar no meu primeiro projeto</p>
  
-  <img src="/readme-imagens/video.gif">
+  <img src="/readme-imagens/video.gif"><br>
  
  <p>Linguagens utilizadas nesse projeto:</p><br>
  

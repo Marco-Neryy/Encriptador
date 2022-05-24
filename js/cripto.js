@@ -19,7 +19,7 @@ function codificaTexto() {
             replace(/a/g, 'ai').
             replace(/o/g, 'ober').
             replace(/ú/g, 'ufat').
-            replace(/[^a-zA-Zs]/g, "")
+            replace(/[^a-zA-Zs ]/g, "")
 
         txt1.value = "";// a mensagem some qnd clicar no botão
     }

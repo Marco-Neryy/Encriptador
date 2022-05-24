@@ -1,0 +1,180 @@
+body{
+  height: 100vh;
+  display:grid;/* usando o grid layout para facilitar na responsividade*/
+   grid-template-areas:
+    "header header header"
+    "main main main"
+    "footer footer footer";
+    font-family: 'Source Serif Pro', serif;
+    font-size: 24px;
+    background-color: lightblue;
+}
+
+
+header{
+  grid-area:header;
+  padding: 10px;
+}
+
+.logo-alura{
+  float: right;
+}
+
+
+.principal{
+  grid-area:main;
+}
+
+.rodape{
+  grid-area:footer;
+}
+
+.titulo{
+  
+  text-align:center;
+  font-size: 32px;
+  padding: 10px;
+  margin: 5px;
+  
+}
+
+.areas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row; 
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.area2{
+    
+  margin-left: 20px;
+ }
+
+.textarea1{
+   margin-top: 25px;
+   padding: 5px;
+   text-align: center;
+  color:black;
+  font-size: 18px;
+  resize: none;
+  width: 450px;
+  height: 374px;
+  border-radius: 15px;
+  border: none;
+}
+
+.subtitulo{
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px;
+    margin: 5px;
+}
+
+
+
+.textarea2{
+  
+  color:black;
+  background-color: white;
+  font-size: 18px;
+  resize: none;
+  width: 450px;
+  height: 390px;
+  border-radius: 15px;
+  text-align: center;
+  padding: 5px;
+}
+
+.botoes-area1{
+  display:flex;
+  justify-content:center;
+  margin: 10px;
+  padding: 5px;;
+}
+
+.encriptar{
+    font-size:18px;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 5px;
+    border:none;
+    cursor:pointer;
+    background-color: purple;
+    color: white;
+    transition: background 2s;
+
+}
+.encriptar:hover{
+    background-color: blueviolet;
+ 
+}
+.revelar{
+  font-size:18px;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 5px;
+    border:none;
+    cursor:pointer;
+    background-color:blue;
+    color: white;
+    transition: background 2s;
+}
+.revelar:hover{
+  background-color: lightblue;
+}
+
+.btn-copiar{
+ display: flex;
+ justify-content: center; 
+ margin: 10px;
+ 
+ 
+}
+
+.copiar{
+  font-size:20px;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 5px;
+    border:none;
+    cursor:pointer;
+    background-color:green;
+    color: white;
+    transition: background 2s;
+}
+
+.copiar:hover{
+  background-color: lightgreen;
+}
+
+
+.rodape {
+    background-color: black;
+    color: white;
+}
+
+.frase-footer{
+  font-size: 14px;
+  text-align: center;
+  padding: 18px;
+}
+
+/* alteração para dispositivos menores*/
+@media only screen and (max-width: 600px) {
+  .textarea1 {
+   width: 80% ;
+   margin-left: 10%;
+
+  }
+  .textarea2{
+    width: 120%;
+  }
+  .area2{margin-right: 20%;}
+
+  .btn-copiar{
+    margin-left: 66px;
+  }
+}

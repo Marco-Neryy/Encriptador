@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/cripto.css">
+	<title>decodificador</title>
+
+</head>
+
+<header>
+
+		<a href="https://www.linkedin.com/in/marco-nery-3b66711a1/"><img src="img/linkedin-logo.png"/></a>
+		<a href="https://github.com/Marco-Neryy"><img src="img/git-logo.png"/></a>
+		<img src="img/logo-alura.png" class="logo-alura">
+	
+</header>
+
+<body>
+
+	
+	<main class="principal">
+
+		<div class="titulo">
+			<h1 >Encriptador de Textos</h1>
+		</div>
+
+	<div class="areas">
+
+	<section class="area1">
+		<textarea class="textarea1" id="campTxt1"  cols="30" rows="10"  placeholder="escreva sua mensagem " onfocus="this.value=''; "></textarea>
+		<h6 class="subtitulo">&#9888; somente letras minusculas e sem caracteres especiais</h6>
+
+	<div class="botoes-area1">	
+		<button class='encriptar' id="btn1">encriptar mensagem</button>
+
+		<button class='revelar' id="btn2">revelar mensagem</button>
+	</div>		
+	</section>
+		
+
+	<section class="area2">
+
+		<textarea class="textarea2" id="mostraTexto" placeholder="mensagem criptografada" readonly disabled></textarea>
+	
+
+	<div class="btn-copiar">
+			<button id="btncopia" class='copiar' onclick="copiarTxt()">copiar</button>
+	</div>	
+	</section>
+</div>
+	</main>
+
+	
+	<footer class="rodape">
+		<p class="frase-footer">&#169;Desenvolvido por Marco Nery
+		<br>projeto Oracle Next Education + alura</p>
+	</footer>
+	<script src="js/cripto.js"></script>
+</body>
+
+
+</html>

@@ -1,8 +1,10 @@
+<img src="/readme-imagens/logo-cripto.png">
+ <h3>Desafio Oracle Next Education + Alura<h3>
 
-# Encriptador
-
- <h2>Desafio Oracle Next Education + Alura<h2>
-
+ <img src="/readme-imagens/cripto-desktop.png">
+ 
+ <img src="/readme-imagens/cripto-vid.mp4">
+ 
 <p> O objetivo desse projeto era o de realizar um encriptador
 de mensagens, onde o texto que o usario digitar seja trocado por outras palavras que no caso seriam:<p>
 <ul>
